@@ -21,6 +21,6 @@ public class PlayerControls : MonoBehaviour
             movement = new Vector3(inputX, inputY);
         }
 
-        transform.Translate(movement/100);
+        transform.Translate(movement);
     }
 }
