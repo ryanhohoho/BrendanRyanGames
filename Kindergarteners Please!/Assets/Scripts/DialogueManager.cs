@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-
-    public Text nameText;
-    public Text dialogueText;
+    private string currentText;
+    private int printedCharacters, delayCount;
+    public Text nameText, dialogueText;
 
     private Queue<string> sentences;
 
@@ -40,14 +40,32 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-        string s = sentences.Dequeue();
-        Debug.Log(s);
-        dialogueText.text = s;
+        printedCharacters = delayCount = 0;
+        currentText = sentences.Dequeue();
+        Debug.Log(currentText);
+        
     }
 
     void EndDialogue()
     {
         Debug.Log("no more dialogue");
+        currentText = null;
         nameText.text = dialogueText.text = "";
+    }
+
+    void Update()
+    {
+        if (currentText != null)
+        {
+            if (printedCharacters < currentText.Length)
+            {
+                delayCount++;
+                if (delayCount % 2 == 0)
+                {
+                    printedCharacters++;
+                    dialogueText.text = currentText.Substring(0, printedCharacters);
+                }
+            }
+        }
     }
 }
