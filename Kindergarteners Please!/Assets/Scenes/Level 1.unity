@@ -382,9 +382,10 @@ MonoBehaviour:
   dialogue:
     name: Talk Button
     sentences:
-    - AYO YOU TALKING TO <#00FF00>ME????</color> FIGHT ME BRU
-    - 'YOU <#FF0000>BOZO</color> '
-    - LOL U TRASH <#FFFF00>L + RATIO</color> GOTTEM
+    - ayo you talking 2 <#00FF00>ME????</color> FIGHT ME BRU!!!!
+    - YOU absolute <#FF0000>BOZO</color> !!11!!1
+    - lol, u TRASH <#FFFF00>L + RATIO</color> gottem hah #swag
+    - You didn't expect <#FFFF00>ME</color> to show up, DID you?
 --- !u!114 &222511445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2690,8 +2691,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f183bb77c031cc241a2a4a978025c333, type: 2}
+  m_sharedMaterial: {fileID: 6978490739558265310, guid: f183bb77c031cc241a2a4a978025c333, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3817,8 +3818,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f183bb77c031cc241a2a4a978025c333, type: 2}
+  m_sharedMaterial: {fileID: 6978490739558265310, guid: f183bb77c031cc241a2a4a978025c333, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
